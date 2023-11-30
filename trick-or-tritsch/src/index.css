@@ -19,15 +19,20 @@
   padding: 0;
 }
 
-Header {
+/* body {
+  display: flex;
+} */
+
+.navbar {
   display: flex;
 }
 
-.navbar-nav {
-  display: flex;
+.test {
+  position: relative;
+  left: 75rem;
 }
 
-.nav-item a{
+.nav-item {
   display: flex;
   justify-content: flex-end;
 }

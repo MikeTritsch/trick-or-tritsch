@@ -1,8 +1,10 @@
 const Header = () => {
   return (
-    <h1 className="home-name">Mike Tritsch</h1>
+    <>
+    <h1 className="home-name">Mike Tritsch</h1> 
+      <p>Full Stack Developer | All Things Music Business</p>
+    </>
   )
 }
-//REVIEW - Does React take care of the semantics?
 
 export default Header;
