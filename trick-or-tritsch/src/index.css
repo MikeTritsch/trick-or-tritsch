@@ -29,6 +29,11 @@
   margin: 10px;
 }
 
+.footer {
+  position: absolute;
+  left: 50%;
+}
+
 /* body {
   display: flex;
 } */
