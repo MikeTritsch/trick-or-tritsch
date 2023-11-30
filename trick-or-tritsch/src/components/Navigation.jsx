@@ -8,16 +8,16 @@ const Navigation = () => {
     <div className="collapse navbar-collapse" id="navbarSupportedContent">
       <ul className="navbar-nav m-auto mb-lg-0">
         <li className="nav-item">
-          <a className="nav-link" aria-current="page" href="#">About Me</a>
+          <a className="nav-link" aria-current="page" href="/">About Me</a>
         </li>
         <li className="nav-item">
-          <a className="nav-link" href="#">Portfolio</a>
+          <a className="nav-link" href="/Portfolio">Portfolio</a>
         </li>
         <li className="nav-item">
-          <a className="nav-link" href="#">Contact</a>
+          <a className="nav-link" href="/Contact">Contact</a>
         </li>
         <li className="nav-item">
-          <a className="nav-link" href="#">Resume</a>
+          <a className="nav-link" href="/Resume">Resume</a>
         </li>
       </ul>
     </div>
