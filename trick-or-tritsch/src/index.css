@@ -19,21 +19,17 @@
   padding: 0;
 }
 
+.name-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.navbar-nav li{
+  margin: 10px;
+}
+
 /* body {
   display: flex;
 } */
-
-.navbar {
-  display: flex;
-}
-
-.test {
-  position: relative;
-  left: 75rem;
-}
-
-.nav-item {
-  display: flex;
-  justify-content: flex-end;
-}
 
