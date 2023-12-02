@@ -1,5 +1,4 @@
 import { useState } from "react";
-import { useEffect } from "react";
 import { validateEmail } from "../utils/helpers";
 
 const Contact = () => {
@@ -43,6 +42,9 @@ const Contact = () => {
         setEmail('');
         setName('');
         setComment('');
+        setTimeout(() => {
+          setSuccessMessage('')
+        }, 5000);
         break;
     }
 
