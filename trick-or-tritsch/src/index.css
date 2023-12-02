@@ -49,11 +49,12 @@ svg {
 
 .icons a{
   color: black;
+  transition: color 0.5s ease-out 50ms;
 }
 
 .icons a:hover{
   /* filter: drop-shadow(0 0 0.35rem #0abdc6); */
-  background-color: #e3e307;
+  background-color: #F3E600;
 }
 
 .nav-link:hover{
@@ -111,18 +112,23 @@ svg {
   width: 30rem;
   padding: 10px;
   text-align: center;
-  transition: background-color 1s ease-out 50ms;
+  transition: background-color 0.5s ease-out 50ms, color 0.5s ease-out 50ms;
 }
 
 .project-card:hover {
-  filter: drop-shadow(0 0 0.35rem #000000);
-  background-color: #ace8ec;
+  filter: drop-shadow(0 0 0.35rem black);
+  background-color: gray;
+  color: white;
 }
 
 .hot-card-img {
   border-radius: 10px;
   width: 456px;
   height: 132px;
+}
+
+.card-img {
+  border-radius: 10px;
 }
 
 
