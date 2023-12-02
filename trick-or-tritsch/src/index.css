@@ -36,7 +36,6 @@
 
 .contact-form {
   position: relative;
-  top: 5rem;
   padding: 10px;
   margin: 10px;
 }
@@ -94,6 +93,11 @@ a:hover{
   left: 50%;
   transform: translate(-50%, -50%);
   color: white;
+}
+
+.btn {
+  background-color: #feff6e;
+  filter: drop-shadow(0 0 0.35rem #0abdc6);
 }
 
 
