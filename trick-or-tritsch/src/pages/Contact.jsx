@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { useEffect } from "react";
 import { validateEmail } from "../utils/helpers";
 
 const Contact = () => {
@@ -6,6 +7,7 @@ const Contact = () => {
   const [email, setEmail] = useState("");
   const [comment, setComment] = useState("");
   const [errorMessage, setErrorMessage] = useState("");
+  const [successMessage, setSuccessMessage] = useState("");
 
   const handleInputChange = (e) => {
     const { target } = e;
@@ -24,25 +26,27 @@ const Contact = () => {
   const handleFormSubmit = (e) => {
     e.preventDefault();
 
-    if (!validateEmail(email)) {
-      setErrorMessage("Email is invalid.");
-      return;
+    let errorMessage = '';
+
+    switch (true) {
+      case !validateEmail(email):
+        errorMessage = 'Email is invalid.';
+        break;
+      case !nameField:
+        errorMessage = 'Please enter a name.';
+        break;
+      case !comment:
+        errorMessage = 'Please enter a message.'
+        break;
+      default:
+        setSuccessMessage('Thank you! I will be in touch with you shortly.')
+        setEmail('');
+        setName('');
+        setComment('');
+        break;
     }
 
-    if (!nameField) {
-      setErrorMessage("Please enter a name.");
-      return;
-    }
-
-    if (!comment) {
-      setErrorMessage("Please enter a message.");
-      return;
-    }
-
-    setEmail('');
-    setComment('');
-    setName('');
-    setErrorMessage('');
+    setErrorMessage(errorMessage);
   };
 
   return (
@@ -96,6 +100,11 @@ const Contact = () => {
       {errorMessage && (
         <div>
           <p className="error-text">{errorMessage}</p>
+        </div>
+      )}
+      {successMessage && (
+        <div>
+          <p className="error-text">{successMessage}</p>
         </div>
       )}
     </div>
