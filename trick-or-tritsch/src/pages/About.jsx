@@ -9,7 +9,6 @@ const About = () => {
         <div className="hero-image">
           <div className="hero-text">
             <h1>Tritsch : ( / Tr-EE-ch / )</h1>
-            <p>Developer | Musician </p>
           </div>
         </div>
       <div className="about-text">

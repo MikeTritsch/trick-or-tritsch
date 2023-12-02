@@ -52,11 +52,11 @@ svg {
 }
 
 .icons a:hover{
-  filter: drop-shadow(0 0 0.35rem #0abdc6);
-  background-color: #feff6e;
+  /* filter: drop-shadow(0 0 0.35rem #0abdc6); */
+  background-color: #e3e307;
 }
 
-a:hover{
+.nav-link:hover{
   filter: drop-shadow(0 0 0.35rem #0abdc6);
 }
 
@@ -78,7 +78,7 @@ a:hover{
 }
 
 .hero-image {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),  url('./assets/hero.jpg');
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),  url('../src/assets/images/hero.jpg');
   height: 100vh;
   background-position: center;
   background-repeat: no-repeat;
@@ -98,6 +98,31 @@ a:hover{
 .btn {
   background-color: #feff6e;
   filter: drop-shadow(0 0 0.35rem #0abdc6);
+}
+
+.project-cards {
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.project-card {
+  width: 30rem;
+  padding: 10px;
+  text-align: center;
+  transition: background-color 1s ease-out 50ms;
+}
+
+.project-card:hover {
+  filter: drop-shadow(0 0 0.35rem #000000);
+  background-color: #ace8ec;
+}
+
+.hot-card-img {
+  border-radius: 10px;
+  width: 456px;
+  height: 132px;
 }
 
 
