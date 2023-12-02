@@ -117,11 +117,11 @@ svg {
 
 .project-card:hover {
   filter: drop-shadow(0 0 0.35rem black);
-  background-color: gray;
+  background-color: rgb(170, 168, 168);
   color: white;
 }
 
-.hot-card-img {
+.resize-card-img {
   border-radius: 10px;
   width: 456px;
   height: 132px;
@@ -129,6 +129,44 @@ svg {
 
 .card-img {
   border-radius: 10px;
+}
+
+@media screen and (min-width: 1924px) {
+  .project-card {
+    display: flex;
+    width: 35rem;
+  }
+}
+
+@media screen and (min-width: 2068px) {
+  .project-card {
+    display: flex;
+    width: 40rem;
+  }
+}
+
+@media screen and (max-width: 1480px) {
+  .project-cards {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .project-card {
+    margin: 10px;
+  }
+}
+
+@media screen and (max-width: 430px) {
+  .project-cards {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .project-card {
+    width: 20rem;
+  }
 }
 
 
