@@ -100,12 +100,12 @@ const Contact = () => {
         </button>
       </form>
       {errorMessage && (
-        <div>
+        <div className="error-container">
           <p className="error-text">{errorMessage}</p>
         </div>
       )}
       {successMessage && (
-        <div>
+        <div className="error-container">
           <p className="error-text">{successMessage}</p>
         </div>
       )}
