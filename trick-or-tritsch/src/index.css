@@ -57,8 +57,18 @@ svg {
   background-color: #F3E600;
 }
 
+.nav-link {
+  box-shadow: inset 0 0 0 0 black;
+  color: black;
+  margin: 0 -.25rem;
+  padding: 0 .25rem;
+  transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+}
+
 .nav-link:hover{
-  filter: drop-shadow(0 0 0.35rem #0abdc6);
+  filter: drop-shadow(0 0 0.35rem #F3E600);
+  box-shadow: inset 100px 0 0 0 #F3E600;
+  color: black;
 }
 
 .adjust-height {
