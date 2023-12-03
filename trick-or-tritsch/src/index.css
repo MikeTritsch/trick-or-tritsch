@@ -140,6 +140,10 @@ svg {
   margin: 10px;
 }
 
+.resume-btn {
+  margin: 20px;
+}
+
 @media screen and (min-width: 1924px) {
   .project-card {
     display: flex;
