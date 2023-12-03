@@ -16,22 +16,6 @@ import { FaWordpress } from "react-icons/fa";
 import { FaComputer } from "react-icons/fa6";
 import { SiAdobeindesign } from "react-icons/si";
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 const Resume = () => {
   const onButtonClick = () => {
     const pdfUrl = "mtritsch-resume.pdf";
@@ -46,12 +30,14 @@ const Resume = () => {
   return (
     <div className="resume-div">
       <h1 className="page-name">Resume</h1>
-      <button className="resume-btn btn btn-outline-primary" onClick={onButtonClick}>
-        Download PDF
-      </button>
+      <div className="resume-div">
+        <button className="resume-btn btn btn-outline-primary" onClick={onButtonClick}>
+          Download PDF
+        </button>
+      </div>
       <div className="resume-items-div">
         <div className="tech-stack-list">
-          <h2>Tech Stack</h2>
+        <h2 className="tech-stack-h2">Tech Stack</h2>
           <ul>
             <li>
             <IoLogoJavascript />
@@ -139,7 +125,7 @@ const Resume = () => {
               <p>Certificate | Full-Stack Web Development</p>
           </div>
         </div>
-      </div>
+        </div>
     </div>
   )
 }

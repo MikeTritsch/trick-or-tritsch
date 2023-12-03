@@ -150,10 +150,6 @@ svg {
   margin: 10px;
 }
 
-.resume-btn {
-  margin: 20px;
-}
-
 .github-repo-links {
   color: black;
 }
@@ -166,36 +162,21 @@ svg {
 .resume-items-div {
   display: flex;
   flex-direction: row;
-  justify-content: center;
-  padding: 0px;
+  justify-content: flex-start;
+  padding: 20px;
 }
 
 .tech-stack-list ul{
   list-style-type: none;
   padding: 10px;
-  border-right: 2px solid black;
 }
 
 .tech-stack-list li{
-  padding: 10px;
+  display: inline-block;
 }
 
 .tech-stack-list li:hover{
-  padding: 10px;
   filter: drop-shadow(0 0 0.35rem gray);
-}
-
-.education {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  padding: 10px;
-}
-
-.education h2{
-  padding: 20px;
-  position: relative;
-  bottom: 29px;
 }
 
 .education h3{
@@ -203,7 +184,7 @@ svg {
 }
 
 .education p{
-  padding: 20px;
+  margin: 20px;
 }
 
 .cu-denver {
@@ -252,6 +233,12 @@ svg {
 
 .uta:hover::before {
   opacity: 0.25;
+}
+
+.resume-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 @media screen and (min-width: 1924px) {
