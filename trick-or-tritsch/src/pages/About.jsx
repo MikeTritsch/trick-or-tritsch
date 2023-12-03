@@ -23,7 +23,7 @@ const About = () => {
           In 2019, I moved from Denver to the live music capital of the country, Austin, Texas. In Austin, I worked as a Music Content Operations QA Analyst for Accenture onsite at Meta. This experience gave me an in-depth look at music publishing in the context of social media. It was during this time that I discovered my passion for software and web development. After a few self-guided courses online, I decided to attend The University of Texas' Full Stack Coding Bootcamp in hopes to combine my love of music with my love of code.
         </p>
         <p>
-          I'm a proud husband, father to a baby girl and two dogs, huge comic book nerd, gamer, and am always on the hunt for learning new things. Thanks for reading - for more professional information, check out my resume.
+          I'm a proud husband, girl dad, huge comic book nerd, gamer, and am always on the hunt for learning new things. Thanks for reading - for more professional information, check out my resume.
         </p>
       </div>
     </div>

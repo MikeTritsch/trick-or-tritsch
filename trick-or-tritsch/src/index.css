@@ -144,6 +144,15 @@ svg {
   margin: 20px;
 }
 
+.github-repo-links {
+  color: black;
+}
+
+.github-repo-links:hover {
+  color: white;
+  filter: drop-shadow(0 0 0.35rem black);
+}
+
 @media screen and (min-width: 1924px) {
   .project-card {
     display: flex;
