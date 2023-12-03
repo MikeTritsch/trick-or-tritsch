@@ -180,6 +180,11 @@ svg {
   padding: 10px;
 }
 
+.tech-stack-list li:hover{
+  padding: 10px;
+  filter: drop-shadow(0 0 0.35rem gray);
+}
+
 .education {
   display: flex;
   flex-direction: column;
