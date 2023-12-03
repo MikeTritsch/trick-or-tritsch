@@ -163,6 +163,92 @@ svg {
   filter: drop-shadow(0 0 0.35rem black);
 }
 
+.resume-items-div {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 0px;
+}
+
+.tech-stack-list ul{
+  list-style-type: none;
+  padding: 10px;
+  border-right: 2px solid black;
+}
+
+.tech-stack-list li{
+  padding: 10px;
+}
+
+.education {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 10px;
+}
+
+.education h2{
+  padding: 20px;
+  position: relative;
+  bottom: 29px;
+}
+
+.education h3{
+  padding: 20px;
+}
+
+.education p{
+  padding: 20px;
+}
+
+.cu-denver {
+  position: relative;
+  overflow: hidden;
+  display: inline-block; /* or inline-flex, inline-block, etc. depending on your layout */
+}
+
+.cu-denver::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url('./assets/images/cu_logo.jpg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  opacity: 0;
+  transition: opacity 0.3s ease; /* Add a smooth transition for a better user experience */
+}
+
+.cu-denver:hover::before {
+  opacity: 0.25;
+}
+
+.uta {
+  position: relative;
+  overflow: hidden;
+  display: inline-block; /* or inline-flex, inline-block, etc. depending on your layout */
+}
+
+.uta::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url('./assets/images/ut-horns.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  opacity: 0;
+  transition: opacity 0.3s ease; /* Add a smooth transition for a better user experience */
+}
+
+.uta:hover::before {
+  opacity: 0.25;
+}
+
 @media screen and (min-width: 1924px) {
   .project-card {
     display: flex;
