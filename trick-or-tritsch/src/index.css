@@ -131,6 +131,15 @@ svg {
   border-radius: 10px;
 }
 
+.project-links {
+  text-decoration: none;
+}
+
+.page-name {
+  padding: 10px;
+  margin: 10px;
+}
+
 @media screen and (min-width: 1924px) {
   .project-card {
     display: flex;
