@@ -18,7 +18,7 @@ Uses [react-router-dom](https://www.npmjs.com/package/react-router-dom) npm pack
 
 ## Description
 
-Introducing the Trick or Tritsch Portfolio (Version 1). This dynamic portfolio was designed with the user in mind to convey professional, and a bit of personal information out to the world. Designed using React, this simple but clean portfolio website serves as a showcase of all my work
+Introducing the Trick or Tritsch Portfolio (Version 1). This dynamic portfolio was designed with the user in mind to convey professional, and a bit of personal information out to the world. Designed using React, this simple but clean portfolio website serves as a showcase of all my work...
 
 ...so far.
 
